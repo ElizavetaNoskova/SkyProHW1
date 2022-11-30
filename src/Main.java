@@ -5,7 +5,9 @@ public class Main {
         task3();
         task4();
         task5();
-
+        task6();
+        task7();
+        task8();
     }
 
     public static void task1 () {
@@ -60,5 +62,34 @@ public class Main {
         frog= frog/3.5;
         System.out.println(frog);
         frog= frog+4;
+    }
+    public static void task6 () {
+        System.out.println("Задача 6");
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var weight = boxer1 + boxer2;
+        System.out.println(weight);
+
+        System.out.println(boxer2-boxer1);
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var weight = boxer2 - boxer1;
+        System.out.println(weight);
+
+        System.out.println(boxer2%boxer1);
+    }
+    public static void task8 () {
+        System.out.println("Задача 8");
+        var hour=640;
+        var smena=8;
+        var rabotnik=hour/ smena;
+
+        System.out.println("Всего в компании-"+ rabotnik + " человек");
+        rabotnik=rabotnik+94;
+        hour=hour+ 94* smena;
+        System.out.println("Если в компании работает "+rabotnik+" человека,то всего "+ hour+ " часа работы может быть поделено между сотрудниками");
     }
 }
